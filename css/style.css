@@ -116,6 +116,23 @@ section {
 }
 
 .giant-box {
-    height: 890px ;
+    height: 890px;
+    flex-grow: 1;
+}
+
+.small-footer-box {
+    background-color: #f08080;
+    flex-grow: 1;
+}
+
+.large-footer-box {
+    background-color: #20b2aa;
+    display: flex;
+    flex-grow: 2;
+    height: 390px;
+}
+
+.division-box-footer{
+    border: dotted 1px #FFFFFF;
     flex-grow: 1;
 }

@@ -58,6 +58,7 @@ Container
 .container {
     width: 900px;
     margin: 0 auto;
+    display: flex;
 }
 
 .second-container-header{
@@ -76,9 +77,12 @@ Utilities
 }
 
 .bg-blue {
-    background-color: #00008b ;
+    background-color: #00008b;
 }
 
+.bg-white {
+    background-color: #FFFFFF;
+}
 
 /******
 Section
@@ -88,3 +92,13 @@ section {
     padding-bottom: 30px;
 }
 
+.large-box {
+    background-color: #1e90ff;
+    flex-grow: 2;
+    height: 390px;
+}
+
+.small-box {
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}

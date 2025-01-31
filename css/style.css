@@ -88,6 +88,14 @@ Utilities
     background-color: #d3d3d3;
 }
 
+.bg-green {
+    background-color: #228b22;
+}
+
+.bg-black {
+   background-color: #23272a;
+}
+
 /******
 Section
 ******/
@@ -104,5 +112,10 @@ section {
 
 .small-box {
     background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+.giant-box {
+    height: 890px ;
     flex-grow: 1;
 }

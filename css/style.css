@@ -8,3 +8,22 @@ Reset
     box-sizing: border-box;
 
 }
+
+/******
+Header
+******/
+
+header {
+    padding: 17px 0;
+}
+
+.container-header {
+    display: flex;
+    background-color: #add8e6;
+    justify-content: center;
+}
+
+.container-header > div {
+    background-color: #daa520 ;
+    border: 1px dotted #000000;
+}

@@ -15,15 +15,55 @@ Header
 
 header {
     padding: 17px 0;
-}
-
-.container-header {
-    display: flex;
     background-color: #add8e6;
-    justify-content: center;
 }
 
-.container-header > div {
-    background-color: #daa520 ;
+nav{
+    display: flex;
+    background-color: #daa520;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.link {
+    flex-grow: 2;
+    text-align: center;
+    padding: 2px;
+}
+
+.login {
+    flex-grow: 1;
+    text-align: right;
+    padding: 2px;
+}
+
+
+/******
+Debug
+******/
+
+.debug{
+    height: 300px;
+    background-color: violet;
+}
+
+/******
+Container
+******/
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/******
+Utilities
+******/
+
+.dotted {
     border: 1px dotted #000000;
 }

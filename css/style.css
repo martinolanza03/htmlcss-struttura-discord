@@ -124,6 +124,10 @@ section {
 Footer
 ******/
 
+footer section:first-child{
+    padding-top: 5px;
+} 
+
 .small-footer-box {
     background-color: #f08080;
     flex-grow: 1;
@@ -139,4 +143,28 @@ Footer
 .division-box-footer{
     border: dotted 1px #FFFFFF;
     flex-grow: 1;
+}
+
+.nav-footer{
+    display: flex;
+    background-color: #7fffd4;
+    padding: 24px 0 24px 0;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    background-color: #ffb6c1;
+    padding: 2px;
+}
+
+.button-footer {
+    background-color: #ffb6c1;
+    padding: 2px;
+}
+
+.last-border {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
 }

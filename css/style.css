@@ -14,7 +14,7 @@ Header
 ******/
 
 header {
-    padding: 17px 0;
+    padding: 17px 0 2px 0;
     background-color: #add8e6;
 }
 
@@ -60,6 +60,13 @@ Container
     margin: 0 auto;
 }
 
+.second-container-header{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ee82ee;
+    height: 390px;
+}
+
 /******
 Utilities
 ******/
@@ -67,3 +74,25 @@ Utilities
 .dotted {
     border: 1px dotted #000000;
 }
+
+.bg-blue {
+    background-color: #00008b ;
+}
+
+
+/******
+Section
+******/
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/******
+Main
+******/
+main > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+

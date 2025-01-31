@@ -120,6 +120,10 @@ section {
     flex-grow: 1;
 }
 
+/******
+Footer
+******/
+
 .small-footer-box {
     background-color: #f08080;
     flex-grow: 1;

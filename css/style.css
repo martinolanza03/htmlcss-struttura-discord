@@ -27,6 +27,7 @@ nav{
 .logo {
     flex-grow: 1;
     padding: 2px;
+    flex-shrink: 0;
 }
 
 .link {
@@ -39,6 +40,7 @@ nav{
     flex-grow: 1;
     text-align: right;
     padding: 2px;
+    flex-shrink: 0;
 }
 
 
